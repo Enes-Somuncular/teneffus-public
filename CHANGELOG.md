@@ -1,5 +1,9 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.6.3 (2×2 Kompakt Oyun Vitrini — 2026-11-21)
+- **2×2 Kompakt Hub Oyun Vitrini (`HubHome`):** Ana sayfadaki oyun kartları tek sütundan **2 sütunlu eşit yükseklikte vitrin düzenine** (`grid-cols-2`) geçirildi. Tüm oyunlar tek bakışta kaydırmadan görülebilir hale geldi; kısa rozetler (*6 Rol*, *800 Kelime*, *72 Mekân*, *360 Kart*), iki satırlık vurucu özetler, kişi sayısı/süre bilgisi ve yüksek kontrastlı tam genişlik *Oyna* butonlarıyla sadeleştirildi.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.6.3` olarak güncellendi.
+
 ## v1.6.2 (Kompakt & Şık Sayısal Ayar Kartları — 2026-11-21)
 - **Kompakt Sayısal Ayar Kartı (`NumericStepperInput`):** Sayısal ayar kartlarındaki gereksiz açıklama satırları kaldırıldı; sayı ve birimin (`180 sn`, `60 sn`, `3 pas`, `-1 puan`) kutu içinde boşluksuz, dengeli ve tek boyutta hizalandığı daha zarif bir tasarım uygulandı.
 - **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.6.2` olarak güncellendi.
