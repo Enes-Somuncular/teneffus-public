@@ -7,8 +7,8 @@
   **Arkadaş grupları için tasarlanmış; tamamen ücretsiz, reklamsız, çevrimdışı çalışabilen mobil öncelikli pass-and-play parti oyunları hub'ı.**
 
   [![Canlı Uygulama](https://img.shields.io/badge/Canlı%20Site-teneffus.ns--som.workers.dev-f59e0b?style=for-the-badge&logo=cloudflare&logoColor=white)](https://teneffus.ns-som.workers.dev/)
-  [![Site Sürümü](https://img.shields.io/badge/Hub%20Sürümü-v1.4.1-10b981?style=for-the-badge)](CHANGELOG.md)
-  [![Vampir-Köylü](https://img.shields.io/badge/Vampir--Köylü-v1.3.1-f43f5e?style=for-the-badge)](CHANGELOG.md)
+  [![Site Sürümü](https://img.shields.io/badge/Hub%20Sürümü-v1.4.2-10b981?style=for-the-badge)](CHANGELOG.md)
+  [![Vampir-Köylü](https://img.shields.io/badge/Vampir--Köylü-v1.4.0-f43f5e?style=for-the-badge)](CHANGELOG.md)
   [![Kelime Sahtekarı](https://img.shields.io/badge/Kelime%20Sahtekarı-v1.1.0-10b981?style=for-the-badge)](CHANGELOG.md)
   [![Mimari](https://img.shields.io/badge/Mimari-React%2019%20%7C%20TS%20%7C%20PWA-6366f1?style=for-the-badge)](docs/ARCHITECTURE.md)
   [![Gizlilik](https://img.shields.io/badge/Gizlilik-%25100%20Cihazda-06b6d4?style=for-the-badge)](docs/PRIVACY.md)
@@ -40,9 +40,9 @@
         <em>Teneffüs Hub v1.4.0: Ortak Oyuncu Ekibi, Vampir-Köylü ve Kelime Sahtekarı</em>
       </td>
       <td align="center" width="33%">
-        <img src="assets/screenshots/vampir-koylu.png" alt="Vampir-Köylü Oyun Kurulumu" width="240">
+        <img src="assets/screenshots/vampir-koylu.png" alt="Vampir-Köylü v1.4.0 Oyun Kurulumu" width="240">
         <br>
-        <em>Vampir-Köylü v1.3.0: Mod, Rol Dağıtımı ve Kurallar</em>
+        <em>Vampir-Köylü v1.4.0: 3 Takımlı Rol Dağıtımı ve Rol İçi Ayarlar</em>
       </td>
       <td align="center" width="33%">
         <img src="assets/screenshots/kelime-sahtekari.png" alt="Kelime Sahtekarı v1.1.0 Oyun Kurulumu" width="240">
@@ -74,10 +74,11 @@ Herkesin aynı gizli kelimeyi bildiği, sahtekarların ise blöf yaptığı tek 
 - **4 Farklı "Son Şans (Oyunu Çalma)" Modu:** Yakalanan sahtekar gizli kelimeyi **6 Şıklı** seçimden bulabilir, **Yazarak** (büyük/küçük harf ve Türkçe karakter toleranslı) tahmin edebilir, **Sözlü (Masa Onaylı)** söyleyebilir ya da bu kural tamamen **Kapalı** oynanabilir.
 - **Eşit Yükseklikli Anti-İpucu Kartları & Dengeli Çağrışımlar:** Bilen ve Sahtekar kartları aynı yüksekliğe sahiptir; sahtekara kategori veya cevabı doğrudan ele vermeyen zorlaştırılmış çağrışım ipuçları gösterme, Açık Masa / Gizli oylama ve tekrarsız kelime havuzu ayarlanabilir.
 
-### 2. Vampir-Köylü (`v1.3.1` • 4–16 Kişi • 10–25 dk)
+### 2. Vampir-Köylü (`v1.4.0` • 4–16 Kişi • 10–25 dk)
 Masa başı klasiği **Vampir-Köylü**, elden ele mobil deneyime özel mekaniklerle sıfırdan tasarlandı:
-- **İki Oynanış Modu:** Tam elden ele **Moderatörsüz** mod veya tek ekrandan akışı yöneten **Anlatıcı Yardımcılı** mod.
-- **6 Farklı Rol:** *Vampir*, *Köylü*, *Doktor*, *Dedektif*, her gece hedef güncelleyebilen ön-hedefli *Avcı* ve gündüz asılırsa tek başına kazanan *Deli*.
+- **3 Kategorili Rol Dağıtımı & Rol İçi Ayarlar:** Roller **Vampir Takımı**, **Köy Halkı (Masum)** ve **Tarafsız** olarak gruplanır; *Vampir* ve *Doktor* gibi rollere özel kurallar doğrudan kendi dişli butonunun altındaki ayar çekmecesinden özelleştirilir.
+- **Gece Takım Oyu Görünümü:** Vampirler birbirini tanırken gece hedef kartında diğer vampirin oyunu **İsimli**, anonim **Vampir oyu** veya tamamen **Gizli** olarak görme ayarları seçilebilir; kör modla otomatik kombinlenir.
+- **İki Oynanış Modu & 6 Rol:** *Moderatörsüz* / *Anlatıcı Yardımcılı* modlar; *Vampir*, *Köylü*, *Doktor*, *Dedektif*, ön-hedefli *Avcı* ve *Deli* rolleri.
 - **Tek Turda Rol + 1. Gece Akışı & Eşit Kartlar:** İlk gecede oyuncular basılı tutup rolünü öğrendikten hemen sonra eylemini tamamlar; paravan seçimleri ve `(i)` rol bilgi kartıyla süreden rol tahmini engellenir.
 - **Özelleştirilebilir Kurallar & Çift Oylama Modu:** **Açık Masa Oylaması** (geri almalı) veya **Gizli Oylama**, elenen rolünü gizleme/gösterme ve doktor kuralları özelleştirilebilir.
 
@@ -88,7 +89,7 @@ Masa başı klasiği **Vampir-Köylü**, elden ele mobil deneyime özel mekanikl
 | Katman | Seçilen Teknoloji & Yaklaşım |
 | :--- | :--- |
 | **Arayüz** | React 19, TypeScript (strict), Tailwind CSS v4, Lucide İkonları |
-| **Derleme & Test** | Vite 8, Vitest (32 saf birim testi: 19 Vampir-Köylü + 10 Kelime Sahtekarı + 3 Sıralama), ESLint |
+| **Derleme & Test** | Vite 8, Vitest (33 saf birim testi: 20 Vampir-Köylü + 10 Kelime Sahtekarı + 3 Sıralama), ESLint |
 | **Mimari** | Oyun motorlarının UI'dan izole edildiği Registry tabanlı modüler yapı ([Architecture Docs](docs/ARCHITECTURE.md)) |
 | **Veri & Gizlilik** | `%100` tarayıcı içi (`localStorage`), sıfır sunucu / sıfır takip ([Privacy Policy](docs/PRIVACY.md)) |
 | **Yayınlama & CDN** | PWA Service Worker + Cloudflare Workers Static Assets (SPA fallback, sınırsız statik istek) |
@@ -99,8 +100,8 @@ Masa başı klasiği **Vampir-Köylü**, elden ele mobil deneyime özel mekanikl
 
 **Teneffüs** is a mobile-first, offline-capable Turkish pass-and-play party game hub built with **React 19**, **strict TypeScript**, **Tailwind CSS v4**, and **Vite 8**, deployed on **Cloudflare Workers Static Assets** (`https://teneffus.ns-som.workers.dev`).
 
-- **Multi-Game Modular Architecture:** Hosts both **Vampir-Köylü** (`v1.3.1`, 4–16 players, 6 roles) and **Kelime Sahtekarı** (`v1.1.0`, 3–12 players, 10 categories / 450 curated Turkish words + custom word lists + multiple-choice, Turkish-normalized typed, and verbal steal mechanics) behind a unified plugin-style game registry and touch/mouse drag-sortable persistent roster.
-- **Decoupled Game Engines:** Pure functional TypeScript state machines for every game, verified by **32 Vitest unit tests** independently of React components.
+- **Multi-Game Modular Architecture:** Hosts both **Vampir-Köylü** (`v1.4.0`, 4–16 players, 3 team groups with per-role settings drawers & configurable night vote visibility) and **Kelime Sahtekarı** (`v1.1.0`, 3–12 players, 10 categories / 450 curated Turkish words + custom word lists + multiple-choice, Turkish-normalized typed, and verbal steal mechanics) behind a unified plugin-style game registry and touch/mouse drag-sortable persistent roster.
+- **Decoupled Game Engines:** Pure functional TypeScript state machines for every game, verified by **33 Vitest unit tests** independently of React components.
 - **Pass-and-Play Security & Mobile Polish:** Uniform-height anti-leakage cards, hold-to-reveal privacy shields, decoy night actions to normalize turn durations, and touch guards preventing accidental text selection or mobile zoom during group handoffs.
 - **Zero-Backend PWA:** Offline app-shell caching via a custom Service Worker and persistent localStorage game state.
 

@@ -1,5 +1,11 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.4.2 (Vampir-Köylü v1.4.0 — Takımlı Rol Dağıtımı & Rol İçi Ayarlar — 2026-11-21)
+- **3 Kategorili Rol Dağıtımı:** Vampir-Köylü rolleri **Vampir Takımı**, **Köy Halkı (Masum)** ve **Tarafsız** gruplarına ayrıldı.
+- **Rol İçi Ayar Çekmeceleri:** *Doktor* ve *Vampir* ile ilgili özel kurallar doğrudan rol kartlarının üzerindeki ayarlar ikonuna taşındı; Genel Kural Ayarları sadeleştirildi.
+- **Gece Takım Oyu Görünümü:** Vampirlerin gece diğer vampir oylarını **İsimli**, anonim **Vampir oyu** veya **Gizli** olarak görme seçeneği eklendi; birbirini tanıma ayarıyla uyumlu çalışır.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.4.2` olarak güncellendi.
+
 ## v1.4.1 (Sürükle-Bırak Sıralama & 450 Kelime — 2026-11-21)
 - **Tut-Sürükle Oyuncu Sıralama:** Hub Oyuncu Ekibi (`RosterSheet`), Vampir-Köylü (`v1.3.1`) ve Kelime Sahtekarı (`v1.1.0`) kurulum ekranlarına dokunmatik ve fare destekli sürükle-bırak sıralama eklendi.
 - **Kelime Sahtekarı `v1.1.0`:**
