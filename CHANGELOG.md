@@ -1,5 +1,13 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.6.0 (Yasaklı Kelime v1.0.0 Lansmanı — 2026-11-21)
+- **Yeni Oyun — Yasaklı Kelime `v1.0.0` (2–16 Kişi):**
+  - **İki Oynanış Modu:** 2–12 kişilik **Takımsız (Bireysel / Küçük Grup)** modu (*hem anlatana hem bilene +1 puan*) ve 4–16 kişilik **Klasik Takım (Tabu)** modu (*A Takımı vs. B Takımı*).
+  - **6 Kategori • 360 Kart (2.160 Kelime) + Özel Kart Ekle (`localStorage`):** *Günlük Hayat & Eşyalar*, *Yemek, İçecek & Mutfak*, *Kültür, Sanat & Eğlence*, *Spor, Oyun & Hobi*, *Bilim, Doğa & Teknoloji* ve *Duygular, Deyimler & Kavramlar* paketleri ile özel kart oluşturma desteği eklendi.
+  - **Anti-Kopya Duraklatma & Tur Sonu Masa İtirazı Düzeltmesi:** Süre duraklatıldığında kelimeyi gizleyen kalkan ve tur sonunda oynanan kartların durumunu (*Doğru ↔ Yasak ↔ Pas*) tek dokunuşla düzeltme sistemi eklendi.
+  - **Birim Testleri:** 5 yeni Vitest motor birim testiyle toplam test sayısı **47/47**'ye ulaştı.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.6.0` olarak güncellendi.
+
 ## v1.5.4 (Oyun Kartları & Oyun Başlığı Sürüm Konumlandırması — 2026-11-21)
 - **Zarif Oyun Sürüm Etiketleri:** Oyun kartlarındaki ve oyun içi üst başlıktaki büyük sürüm kutucukları başlıkların yanından kaldırılarak kartların alt bilgi satırına ve alt başlık sonuna daha küçük, sade bir tipografiyle taşındı.
 - **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.5.4` olarak güncellendi.
