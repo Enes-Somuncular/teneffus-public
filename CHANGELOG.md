@@ -1,5 +1,9 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.5.4 (Oyun Kartları & Oyun Başlığı Sürüm Konumlandırması — 2026-11-21)
+- **Zarif Oyun Sürüm Etiketleri:** Oyun kartlarındaki ve oyun içi üst başlıktaki büyük sürüm kutucukları başlıkların yanından kaldırılarak kartların alt bilgi satırına ve alt başlık sonuna daha küçük, sade bir tipografiyle taşındı.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.5.4` olarak güncellendi.
+
 ## v1.5.3 (Web-App Tek Dokunuşla Yenile / Güncelle Butonu — 2026-11-21)
 - **Sağ Üst "Yenile" Butonu:** Web-App (Standalone PWA) modunda uygulamadan çıkıp girmeye gerek kalmadan yeni güncellemeleri anında çekip sayfayı yenileyen (çevrimdışı modda ise yerel önbelleği bozmadan güvenle yenileyen) sağ üst **Yenile** butonu eklendi.
 - **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.5.3` olarak güncellendi.
