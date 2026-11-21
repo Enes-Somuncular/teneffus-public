@@ -7,7 +7,7 @@
   **Arkadaş grupları için tasarlanmış; tamamen ücretsiz, reklamsız, çevrimdışı çalışabilen mobil öncelikli pass-and-play parti oyunları hub'ı.**
 
   [![Canlı Uygulama](https://img.shields.io/badge/Canlı%20Site-teneffus.ns--som.workers.dev-f59e0b?style=for-the-badge&logo=cloudflare&logoColor=white)](https://teneffus.ns-som.workers.dev/)
-  [![Site Sürümü](https://img.shields.io/badge/Hub%20Sürümü-v1.6.3-10b981?style=for-the-badge)](CHANGELOG.md)
+  [![Site Sürümü](https://img.shields.io/badge/Hub%20Sürümü-v1.6.4-10b981?style=for-the-badge)](CHANGELOG.md)
   [![Vampir-Köylü](https://img.shields.io/badge/Vampir--Köylü-v1.4.3-f43f5e?style=for-the-badge)](CHANGELOG.md)
   [![Kelime Sahtekarı](https://img.shields.io/badge/Kelime%20Sahtekarı-v1.2.1-10b981?style=for-the-badge)](CHANGELOG.md)
   [![Casus Kim?](https://img.shields.io/badge/Casus%20Kim%3F-v1.0.1-6366f1?style=for-the-badge)](CHANGELOG.md)
