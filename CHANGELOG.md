@@ -1,5 +1,13 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.6.1 (Tüm Oyunlarda Serbest Sayısal Ayarlar & Yasaklı Kelime v1.1.0 — 2026-11-21)
+- **Serbest Sayısal Ayarlar (`NumericStepperInput` — `- / +` + Klavyeden Direkt Giriş + Hızlı Seçenekler):**
+  - **Yasaklı Kelime `v1.1.0`:** *Anlatım Süresi* (`10..600 sn`), *Tur Başına Pas Hakkı* (`0..99 pas` + `Sınırsız`), *Yasak (Tabu) Cezası* (`0..-20 puan`), *Tur Sayısı* (`1..25 tur`) ve *Hedef Puan* (`5..500 puan`) ayarlarının tamamı `- / +` tuşları ve klavyeden doğrudan sayı yazma desteğiyle özgürleştirildi.
+  - **3+ Kişilik Takımsız (Bireysel) Mod Doğru Düğmesi Düzeltmesi:** 3+ kişilik Bireysel modda hem anlatan hem bilen `+1 puan` aldığı için bilenin seçilmemesine yol açan alttaki genel `"Doğru (+1)"` tuşu kaldırıldı; doğru kart seçimi doğrudan **Doğru Bilen Oyuncuyu Seç** butonlarıyla yapılır ve Tur Özeti ekranından da bilen kişi değiştirilebilir.
+  - **Vampir-Köylü `v1.4.3`, Kelime Sahtekarı `v1.2.1` ve Casus Kim? `v1.0.1`:** Sabit 4 seçenekli *Tartışma Süresi* ve *Çapraz Sorgu Süresi* seçicileri `- / +`, klavyeden saniye girişi, hazır dakika kısayolları ve *Süresiz* anahtarı içeren yeni sayısal bileşene geçirildi.
+- **Birim Testleri:** Toplam Vitest birim testi sayısı **48/48**'e çıkarıldı.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.6.1` olarak güncellendi.
+
 ## v1.6.0 (Yasaklı Kelime v1.0.0 Lansmanı — 2026-11-21)
 - **Yeni Oyun — Yasaklı Kelime `v1.0.0` (2–16 Kişi):**
   - **İki Oynanış Modu:** 2–12 kişilik **Takımsız (Bireysel / Küçük Grup)** modu (*hem anlatana hem bilene +1 puan*) ve 4–16 kişilik **Klasik Takım (Tabu)** modu (*A Takımı vs. B Takımı*).

@@ -7,11 +7,11 @@
   **Arkadaş grupları için tasarlanmış; tamamen ücretsiz, reklamsız, çevrimdışı çalışabilen mobil öncelikli pass-and-play parti oyunları hub'ı.**
 
   [![Canlı Uygulama](https://img.shields.io/badge/Canlı%20Site-teneffus.ns--som.workers.dev-f59e0b?style=for-the-badge&logo=cloudflare&logoColor=white)](https://teneffus.ns-som.workers.dev/)
-  [![Site Sürümü](https://img.shields.io/badge/Hub%20Sürümü-v1.6.0-10b981?style=for-the-badge)](CHANGELOG.md)
-  [![Vampir-Köylü](https://img.shields.io/badge/Vampir--Köylü-v1.4.2-f43f5e?style=for-the-badge)](CHANGELOG.md)
-  [![Kelime Sahtekarı](https://img.shields.io/badge/Kelime%20Sahtekarı-v1.2.0-10b981?style=for-the-badge)](CHANGELOG.md)
-  [![Casus Kim?](https://img.shields.io/badge/Casus%20Kim%3F-v1.0.0-6366f1?style=for-the-badge)](CHANGELOG.md)
-  [![Yasaklı Kelime](https://img.shields.io/badge/Yasaklı%20Kelime-v1.0.0-f59e0b?style=for-the-badge)](CHANGELOG.md)
+  [![Site Sürümü](https://img.shields.io/badge/Hub%20Sürümü-v1.6.1-10b981?style=for-the-badge)](CHANGELOG.md)
+  [![Vampir-Köylü](https://img.shields.io/badge/Vampir--Köylü-v1.4.3-f43f5e?style=for-the-badge)](CHANGELOG.md)
+  [![Kelime Sahtekarı](https://img.shields.io/badge/Kelime%20Sahtekarı-v1.2.1-10b981?style=for-the-badge)](CHANGELOG.md)
+  [![Casus Kim?](https://img.shields.io/badge/Casus%20Kim%3F-v1.0.1-6366f1?style=for-the-badge)](CHANGELOG.md)
+  [![Yasaklı Kelime](https://img.shields.io/badge/Yasaklı%20Kelime-v1.1.0-f59e0b?style=for-the-badge)](CHANGELOG.md)
   [![Mimari](https://img.shields.io/badge/Mimari-React%2019%20%7C%20TS%20%7C%20PWA-6366f1?style=for-the-badge)](docs/ARCHITECTURE.md)
   [![Gizlilik](https://img.shields.io/badge/Gizlilik-%25100%20Cihazda-06b6d4?style=for-the-badge)](docs/PRIVACY.md)
   [![Lisans](https://img.shields.io/badge/Lisans-Tüm%20Hakları%20Saklıdır-475569?style=for-the-badge)](LICENSE)
@@ -69,14 +69,14 @@
 
 ## Oynanabilir Oyunlar
 
-### 1. Kelime Sahtekarı (`v1.2.0` • 3–12 Kişi • 5–12 dk)
+### 1. Kelime Sahtekarı (`v1.2.1` • 3–12 Kişi • 5–12 dk)
 Herkesin aynı gizli kelimeyi bildiği, sahtekarların ise blöf yaptığı tek kelimelik ipucu ve çıkarım oyunu:
 - **10 Hazır Kategori • 800 Kürasyonlu Kelime:** *Yemek & İçecek*, *Meslekler*, *Hayvanlar*, *Mekânlar & Yerler*, *Eşyalar & Teknoloji*, *Spor & Oyunlar*, *Film, Dizi & Kültür*, *Ülkeler & Şehirler*, *Doğa & Bilim*, *Günlük Hayat & Kavramlar* — her kategoride 80 özenle seçilmiş kelimeyle tek veya çoklu seçim desteği.
 - **Özel Kelime Listesi:** Kendi arkadaş grubunuza veya sınıfınıza özel kelimeler ekleyip cihazınızda saklayabilirsiniz.
 - **4 Farklı "Son Şans (Oyunu Çalma)" Modu:** Yakalanan sahtekar gizli kelimeyi **6 Şıklı** seçimden bulabilir, **Yazarak** (büyük/küçük harf ve Türkçe karakter toleranslı) tahmin edebilir, **Sözlü (Masa Onaylı)** söyleyebilir ya da bu kural tamamen **Kapalı** oynanabilir.
 - **Esnek Sahtekar Sayısı & Eşit Yükseklikli Kartlar:** Tek dokunuşla *Önerilen* sayıya dönebilir veya kaotik turlar için oyuncu sayısına kadar serbestçe sahtekar ekleyebilirsiniz.
 
-### 2. Vampir-Köylü (`v1.4.2` • 4–16 Kişi • 10–25 dk)
+### 2. Vampir-Köylü (`v1.4.3` • 4–16 Kişi • 10–25 dk)
 Masa başı klasiği **Vampir-Köylü**, anlatıcıya gerek kalmadan elden ele mobil deneyime özel mekaniklerle sıfırdan tasarlandı:
 - **3 Kategorili Rol Dağıtımı & Rol İçi Ayarlar:** Roller **Vampir Takımı**, **Köy Halkı (Masum)** ve **Tarafsız** olarak gruplanır; *Vampir* ve *Doktor* gibi rollere özel kurallar doğrudan kendi dişli butonunun altındaki ayar çekmecesinden özelleştirilir.
 - **Sınırsız Çoklu Rol Desteği:** *Önerilen Dağıtım* kısayolunun yanı sıra aynı maçta 2+ *Doktor*, *Dedektif*, *Avcı* veya *Deli* ile tamamen serbest takım kurulumu yapılabilir.
@@ -85,13 +85,13 @@ Masa başı klasiği **Vampir-Köylü**, anlatıcıya gerek kalmadan elden ele m
 - **Tek Turda Rol + 1. Gece Akışı & Eşit Kartlar:** İlk gecede oyuncular basılı tutup rolünü öğrendikten hemen sonra eylemini tamamlar; paravan seçimleri ve `(i)` rol bilgi kartıyla süreden rol tahmini engellenir.
 - **Özelleştirilebilir Kurallar & Çift Oylama Modu:** **Açık Masa Oylaması** (geri almalı) veya **Gizli Oylama**, elenen rolünü gizleme/gösterme ve doktor kuralları özelleştirilebilir.
 
-### 3. Casus Kim? (`v1.0.0` • 3–12 Kişi • 5–10 dk)
+### 3. Casus Kim? (`v1.0.1` • 3–12 Kişi • 5–10 dk)
 Masadaki herkesin aynı gizli mekânda birer kimliğe büründüğü, aralarındaki casusun ise konuşmalardan nerede olduklarını çözmeye çalıştığı birebir çapraz sorgu oyunu:
 - **6 Tema Paketi • 72 Mekân • 720 Rol Kimliği:** *Türkiye & Bizden* (Şehir Hatları Vapuru, Halı Saha Maçı, Düğün Salonu, Öğrenci Evi, Semt Pazarı...), *Seyahat & Ulaşım*, *Eğlence & Etkinlik*, *Kurumlar & Mekânlar*, *Macera & Fantastik*, *Sosyal Hayat & Buluşma* + cihazda saklanan **Özel Mekânlar** desteği.
 - **Canlı Olası Mekânlar Panosu & Örnek Sorgu Soruları:** Çapraz sorgu sırasında masadaki ekranda 16 olası mekânlık interaktif referans tablosu (dokunarak üstünü çizme destekli) ve tek dokunuşla rastgele soru önerici yer alır.
 - **Casus Baskını ("Casusum — Mekânı Buldum!") & Son Şans Modları:** Casus konuşmalardan mekânı çözdüğü an oyunu durdurup baskın yapabilir veya oylamada yakalandığında **6 Şıklı**, **Yazarak** ya da **Sözlü** tahminle oyunu çalabilir.
 
-### 4. Yasaklı Kelime (`v1.0.0` • 2–16 Kişi • 5–15 dk)
+### 4. Yasaklı Kelime (`v1.1.0` • 2–16 Kişi • 5–15 dk)
 5 yasaklı kelimeye takılmadan süre bitmeden en çok kelimeyi anlatma oyunu — hem **2–3+ kişilik küçük arkadaş grupları** hem de **4+ kişilik takımlar** için iki ayrı modla:
 - **Takımsız (Bireysel / Küçük Grup • 2–12 Kişi) Modu:** Takımlara bölünmeden hemen başlayın; anlatıcı masadaki herkese anlatır, kelimeyi ilk bilen arkadaşın ismine dokunulduğunda **hem anlatan `+1` hem bilen `+1` puan** kazanır!
 - **Klasik Takım (Tabu Kapışması • 4–16 Kişi) Modu:** A Takımı vs. B Takımı sırayla anlatır; tek dokunuşla dengeli takım dağıtımı ve özelleştirilebilir takım isimleri.
