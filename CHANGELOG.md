@@ -1,5 +1,10 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.4.6 (iOS Web-App Güvenli Alan & Yeni İkon Tasarımı — 2026-11-21)
+- **iOS Web-App (Standalone PWA) Üst Boşluk & Netlik Düzeltmesi:** iPhone Web-App modunda üst durum/bildirim çubuğu bulanıklığının (`status-bar blur`) başlık ve logoya binmesini önleyen güvenli üst boşluk (`pt-safe-hub` ve `pt-safe-header`), durum çubuğu koruma katmanı (`ios-statusbar-shield`) ve filtre kaynaklı WebKit bulanıklığını ortadan kaldıran saf vektörel `BrandLogo` bileşeni eklendi.
+- **Yeni Uygulama İkonu & iOS Ana Ekran Desteği:** Çift oyun kartlı (Vampir-Köylü & Kelime Sahtekarı) yeni Teneffüs ikonu tasarlandı; iOS Safari `apple-touch-icon` için `180x180` yüksek çözünürlüklü PNG (`apple-touch-icon.png`), PWA manifesti için `192x192` ve `512x512` PNG/SVG ikon setleri eklendi.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.4.6` olarak güncellendi.
+
 ## v1.4.5 (Kelime Sahtekarı v1.2.0 — 800 Kelimelik Genişletilmiş Havuz — 2026-11-21)
 - **Kelime Sahtekarı `v1.2.0`:** 10 kategorinin tamamı kategori başına **45 → 80** kelimeye çıkarılarak toplam yerleşik kelime havuzu **450 → 800** benzersiz, günlük hayattan tanıdık Türkçe kelime ve dengeli tek kelimelik çağrışım ipucuna yükseltildi.
 - **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.4.5` olarak güncellendi.
