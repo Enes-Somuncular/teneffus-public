@@ -1,5 +1,10 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.4.3 (Sınırsız Rol & Sahtekar Desteği — 2026-11-21)
+- **Vampir-Köylü `v1.4.1`:** *Doktor*, *Dedektif*, *Avcı* ve *Deli* rollerindeki adet sınırı kaldırıldı; çoklu doktor korumaları, bağımsız dedektif sorguları ve her avcının kendi hedefi tam motor/anlatıcı desteğiyle çalışacak şekilde geliştirildi.
+- **Kelime Sahtekarı `v1.1.1`:** *Sahtekar* sayısındaki 3/çoğunluk kısıtı kaldırıldı; istenirse oyuncu sayısına kadar (kaotik mod dahil) serbest sahtekar seçimi ve tek dokunuşla *Önerilen* ayarına dönüş eklendi.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.4.3` olarak güncellendi.
+
 ## v1.4.2 (Vampir-Köylü v1.4.0 — Takımlı Rol Dağıtımı & Rol İçi Ayarlar — 2026-11-21)
 - **3 Kategorili Rol Dağıtımı:** Vampir-Köylü rolleri **Vampir Takımı**, **Köy Halkı (Masum)** ve **Tarafsız** gruplarına ayrıldı.
 - **Rol İçi Ayar Çekmeceleri:** *Doktor* ve *Vampir* ile ilgili özel kurallar doğrudan rol kartlarının üzerindeki ayarlar ikonuna taşındı; Genel Kural Ayarları sadeleştirildi.
