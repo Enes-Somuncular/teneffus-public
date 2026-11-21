@@ -1,0 +1,23 @@
+# Sürüm Geçmişi (Changelog)
+
+## v1.3.1 (Hub Güncellemesi — 2026-11-21)
+- **Geri Bildirim & Tanıtım Alt Bölümü:** Hub alt kısmına doğrudan e-posta (`enesso.iletisim@icloud.com`), tek dokunuşla kopyalama butonu ve GitHub tanıtım deposu bağlantısı eklendi.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.3.1` olarak güncellendi.
+
+## v1.3.0 (Vampir-Köylü & Mobil UX — 2026-11-21)
+- **Ön-Hedefli Avcı Mekaniği:** Avcı artık ölmeden önce her gece hedefini seçip değiştirebiliyor; elendiğinde seçili hedefi yanında götürüyor.
+- **Anti-İpucu Kompakt Rol Kartı:** Tüm roller için eşit yükseklikli gece kartları ve `(i)` rol bilgi penceresi eklendi; hedef seçimi ekranları tek ekranda kaydırmasız hizalandı.
+
+## v1.2.0 (Oyun Akışı & Dokunmatik İyileştirmeler — 2026-11-21)
+- **Tek Turda Rol + 1. Gece:** Oyuncular ilk gecede rollerini öğrendikten hemen sonra aynı turda ilk gece eylemini gerçekleştirebiliyor.
+- **Açık Masa Oylaması:** Telefon masadayken sırayla tek dokunuşla oy verme ve geri alma seçeneği eklendi.
+- **Paravan Eylemi Netliği & Metin Seçimi Koruması:** Köylü ve Deli gece ekranlarında paravan bilgilendirmesi netleştirildi; mobilde basılı tutarken metin kopyalama/seçme menüsü kapatıldı.
+
+## v1.1.0 (Özelleştirilebilir Kurallar & Sürüm Rozetleri — 2026-11-21)
+- **Özelleştirilebilir Kurallar:** Elenen kişinin rolünü gösterme, ilk gece vampir öldürme, doktor kuralları ve oylama stili ayarları eklendi.
+- **Sürüm Görünürlüğü:** Hub ve oyun kartlarına ayrı sürüm etiketleri eklendi.
+- **Mobil Odak & Yakınlaştırma Düzeltmeleri:** Giriş alanlarında otomatik yakınlaştırma engellendi ve faz geçişlerinde sayfa konumu sıfırlandı.
+
+## v1.0.0 (İlk Yayın — 2026-11-21)
+- **Teneffüs Hub** ve paylaşılan **Oyuncu Ekibi** yayına alındı.
+- **Vampir-Köylü** (4–16 kişi, 6 rol, Moderatörsüz ve Anlatıcı Yardımcılı modlar, oyun günlüğü ve çevrimdışı PWA desteği) yayınlandı.
