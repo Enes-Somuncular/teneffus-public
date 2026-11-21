@@ -1,8 +1,16 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.4.0 (Kelime Sahtekarı v1.0.0 Lansmanı — 2026-11-21)
+- **Yeni Oyun — Kelime Sahtekarı `v1.0.0`:**
+  - 10 kategoride 260 kürasyonlu Türkçe kelime ve tek/çoklu kategori seçimi eklendi.
+  - Cihazda saklanan **Özel Kelime Ekle** havuzu eklendi.
+  - Yakalanan sahtekarın oyunu çalması için **6 Şıklı**, **Yazarak** (büyük/küçük harf ve Türkçe karakter toleranslı), **Sözlü (Masa Onaylı)** ve **Kapalı** modları eklendi.
+  - Anti-ipucu sabit yükseklikli kartlar, Açık Masa / Gizli oylama, tekrarsız kelime seçimi ve 10 yeni Vitest motor birim testi eklendi.
+- **Hub Güncellemesi:** Oyun kartları kendi tema vurgusunu destekleyecek şekilde güncellendi; Devam Eden Oyun kartı aktif olan tüm oyunları listeler hale getirildi.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.4.0` olarak güncellendi.
+
 ## v1.3.1 (Hub Güncellemesi — 2026-11-21)
 - **Geri Bildirim & Tanıtım Alt Bölümü:** Hub alt kısmına doğrudan e-posta (`enesso.iletisim@icloud.com`), tek dokunuşla kopyalama butonu ve GitHub tanıtım deposu bağlantısı eklendi.
-- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.3.1` olarak güncellendi.
 
 ## v1.3.0 (Vampir-Köylü & Mobil UX — 2026-11-21)
 - **Ön-Hedefli Avcı Mekaniği:** Avcı artık ölmeden önce her gece hedefini seçip değiştirebiliyor; elendiğinde seçili hedefi yanında götürüyor.
