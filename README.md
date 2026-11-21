@@ -7,7 +7,7 @@
   **Arkadaş grupları için tasarlanmış; tamamen ücretsiz, reklamsız, çevrimdışı çalışabilen mobil öncelikli pass-and-play parti oyunları hub'ı.**
 
   [![Canlı Uygulama](https://img.shields.io/badge/Canlı%20Site-teneffus.ns--som.workers.dev-f59e0b?style=for-the-badge&logo=cloudflare&logoColor=white)](https://teneffus.ns-som.workers.dev/)
-  [![Site Sürümü](https://img.shields.io/badge/Hub%20Sürümü-v1.6.4-10b981?style=for-the-badge)](CHANGELOG.md)
+  [![Site Sürümü](https://img.shields.io/badge/Hub%20Sürümü-v1.7.0-10b981?style=for-the-badge)](CHANGELOG.md)
   [![Vampir-Köylü](https://img.shields.io/badge/Vampir--Köylü-v1.4.3-f43f5e?style=for-the-badge)](CHANGELOG.md)
   [![Kelime Sahtekarı](https://img.shields.io/badge/Kelime%20Sahtekarı-v1.2.1-10b981?style=for-the-badge)](CHANGELOG.md)
   [![Casus Kim?](https://img.shields.io/badge/Casus%20Kim%3F-v1.0.1-6366f1?style=for-the-badge)](CHANGELOG.md)
@@ -105,7 +105,7 @@ Masadaki herkesin aynı gizli mekânda birer kimliğe büründüğü, aralarınd
 | Katman | Seçilen Teknoloji & Yaklaşım |
 | :--- | :--- |
 | **Arayüz** | React 19, TypeScript (strict), Tailwind CSS v4, Lucide İkonları |
-| **Derleme & Test** | Vite 8, Vitest (47 saf birim testi: 21 Vampir-Köylü + 11 Kelime Sahtekarı + 7 Casus Kim + 5 Yasaklı Kelime + 3 Sıralama), ESLint |
+| **Derleme & Test** | Vite 8, Vitest (54 saf birim testi: 21 Vampir-Köylü + 11 Kelime Sahtekarı + 7 Casus Kim + 6 Yasaklı Kelime + 6 İstatistik Tekilleştirme + 3 Sıralama), ESLint |
 | **Mimari** | Oyun motorlarının UI'dan izole edildiği Registry tabanlı modüler yapı ([Architecture Docs](docs/ARCHITECTURE.md)) |
 | **Veri & Gizlilik** | `%100` tarayıcı içi (`localStorage`), sıfır sunucu / sıfır takip ([Privacy Policy](docs/PRIVACY.md)) |
 | **Yayınlama & CDN** | PWA Service Worker + Cloudflare Workers Static Assets (SPA fallback, sınırsız statik istek) |

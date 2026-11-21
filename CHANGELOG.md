@@ -1,5 +1,11 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.7.0 (Grafiksel Canlı Topluluk Nabzı & Günlük Tekil Oyuncu Sayımı — 2026-11-21)
+- **Tıklanabilir Canlı Topluluk Nabzı (`CommunityStatsModal` & `/api/stats?detail=1`):** Ana sayfadaki topluluk kartına dokunulduğunda **1 Hafta**, **1 Ay** ve **1 Yıl** sekmelerinde interaktif sütun grafikleri (*Oynanan El* / *Günlük Tekil Oyuncu*), dönem bazlı 4 oyun dağılım çubukları, bugünün ve tüm zamanların özetini açan detay modalı eklendi.
+- **Cihaz İçi Günlük Tekil Oyuncu Tekilleştirme (`teneffus:daily-counted-players:v1`):** Aynı gün içinde aynı oyuncularla arka arkaya el başlatıldığında yalnızca *oynanan el* artar; gruptaki oyunculara o gün ilk kez oynayan biri eklenirse yalnızca `+1`, oyuncu çıkarılırsa `+0` artar. Oyuncu isimleri sunucuya hiç gönderilmeden tamamen cihazın yerel hafızasında ayıklanır (`stats.test.ts` — 6 yeni Vitest birim testi, toplam **54/54** test).
+- **Cloudflare Worker KV `v2` Zaman Serisi Deposu:** `teneffus:global_stats:v2` şemasıyla Türkiye saati (`UTC+3`) bazlı günlük/aylık kova kayıtları ve oyun bazlı sayaçlar eklendi.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.7.0` olarak güncellendi.
+
 ## v1.6.4 (Daha Sade & Okunaklı 2×2 Oyun Kartları — 2026-11-21)
 - **Kart Sadeleştirmesi (`HubHome`):** Tüm kart alanı zaten tıklanabilir olduğu için 2×2 oyun kartlarının altındaki tekrarlayan *Oyna* tuşu kaldırıldı; başlık tipografisi büyütülüp alt meta satırı ince bir ayraç çizgisiyle daha temiz ve ferah hale getirildi.
 - **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.6.4` olarak güncellendi.
