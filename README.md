@@ -7,9 +7,9 @@
   **Arkadaş grupları için tasarlanmış; tamamen ücretsiz, reklamsız, çevrimdışı çalışabilen mobil öncelikli pass-and-play parti oyunları hub'ı.**
 
   [![Canlı Uygulama](https://img.shields.io/badge/Canlı%20Site-teneffus.ns--som.workers.dev-f59e0b?style=for-the-badge&logo=cloudflare&logoColor=white)](https://teneffus.ns-som.workers.dev/)
-  [![Site Sürümü](https://img.shields.io/badge/Hub%20Sürümü-v1.4.4-10b981?style=for-the-badge)](CHANGELOG.md)
+  [![Site Sürümü](https://img.shields.io/badge/Hub%20Sürümü-v1.4.5-10b981?style=for-the-badge)](CHANGELOG.md)
   [![Vampir-Köylü](https://img.shields.io/badge/Vampir--Köylü-v1.4.2-f43f5e?style=for-the-badge)](CHANGELOG.md)
-  [![Kelime Sahtekarı](https://img.shields.io/badge/Kelime%20Sahtekarı-v1.1.1-10b981?style=for-the-badge)](CHANGELOG.md)
+  [![Kelime Sahtekarı](https://img.shields.io/badge/Kelime%20Sahtekarı-v1.2.0-10b981?style=for-the-badge)](CHANGELOG.md)
   [![Mimari](https://img.shields.io/badge/Mimari-React%2019%20%7C%20TS%20%7C%20PWA-6366f1?style=for-the-badge)](docs/ARCHITECTURE.md)
   [![Gizlilik](https://img.shields.io/badge/Gizlilik-%25100%20Cihazda-06b6d4?style=for-the-badge)](docs/PRIVACY.md)
   [![Lisans](https://img.shields.io/badge/Lisans-Tüm%20Hakları%20Saklıdır-475569?style=for-the-badge)](LICENSE)
@@ -67,9 +67,9 @@
 
 ## Oynanabilir Oyunlar
 
-### 1. Kelime Sahtekarı (`v1.1.1` • 3–12 Kişi • 5–12 dk)
+### 1. Kelime Sahtekarı (`v1.2.0` • 3–12 Kişi • 5–12 dk)
 Herkesin aynı gizli kelimeyi bildiği, sahtekarların ise blöf yaptığı tek kelimelik ipucu ve çıkarım oyunu:
-- **10 Hazır Kategori • 450 Kürasyonlu Kelime:** *Yemek & İçecek*, *Meslekler*, *Hayvanlar*, *Mekânlar & Yerler*, *Eşyalar & Teknoloji*, *Spor & Oyunlar*, *Film, Dizi & Kültür*, *Ülkeler & Şehirler*, *Doğa & Bilim*, *Günlük Hayat & Kavramlar* — tek veya çoklu seçim desteğiyle.
+- **10 Hazır Kategori • 800 Kürasyonlu Kelime:** *Yemek & İçecek*, *Meslekler*, *Hayvanlar*, *Mekânlar & Yerler*, *Eşyalar & Teknoloji*, *Spor & Oyunlar*, *Film, Dizi & Kültür*, *Ülkeler & Şehirler*, *Doğa & Bilim*, *Günlük Hayat & Kavramlar* — her kategoride 80 özenle seçilmiş kelimeyle tek veya çoklu seçim desteği.
 - **Özel Kelime Listesi:** Kendi arkadaş grubunuza veya sınıfınıza özel kelimeler ekleyip cihazınızda saklayabilirsiniz.
 - **4 Farklı "Son Şans (Oyunu Çalma)" Modu:** Yakalanan sahtekar gizli kelimeyi **6 Şıklı** seçimden bulabilir, **Yazarak** (büyük/küçük harf ve Türkçe karakter toleranslı) tahmin edebilir, **Sözlü (Masa Onaylı)** söyleyebilir ya da bu kural tamamen **Kapalı** oynanabilir.
 - **Esnek Sahtekar Sayısı & Eşit Yükseklikli Kartlar:** Tek dokunuşla *Önerilen* sayıya dönebilir veya kaotik turlar için oyuncu sayısına kadar serbestçe sahtekar ekleyebilirsiniz.
@@ -101,7 +101,7 @@ Masa başı klasiği **Vampir-Köylü**, anlatıcıya gerek kalmadan elden ele m
 
 **Teneffüs** is a mobile-first, offline-capable Turkish pass-and-play party game hub built with **React 19**, **strict TypeScript**, **Tailwind CSS v4**, and **Vite 8**, deployed on **Cloudflare Workers Static Assets** (`https://teneffus.ns-som.workers.dev`).
 
-- **Multi-Game Modular Architecture:** Hosts both **Vampir-Köylü** (`v1.4.2`, 4–16 players, narrator-less pass-and-play flow, 3 team groups, per-role settings drawers, uncapped multi-instance roles & configurable night vote visibility) and **Kelime Sahtekarı** (`v1.1.1`, 3–12 players, 10 categories / 450 curated Turkish words + custom word lists + uncapped impostor counts + multiple-choice, Turkish-normalized typed, and verbal steal mechanics) behind a unified plugin-style game registry and touch/mouse drag-sortable persistent roster.
+- **Multi-Game Modular Architecture:** Hosts both **Vampir-Köylü** (`v1.4.2`, 4–16 players, narrator-less pass-and-play flow, 3 team groups, per-role settings drawers, uncapped multi-instance roles & configurable night vote visibility) and **Kelime Sahtekarı** (`v1.2.0`, 3–12 players, 10 categories / 800 curated Turkish words + custom word lists + uncapped impostor counts + multiple-choice, Turkish-normalized typed, and verbal steal mechanics) behind a unified plugin-style game registry and touch/mouse drag-sortable persistent roster.
 - **Decoupled Game Engines:** Pure functional TypeScript state machines for every game, verified by **35 Vitest unit tests** independently of React components.
 - **Pass-and-Play Security & Mobile Polish:** Uniform-height anti-leakage cards, hold-to-reveal privacy shields, decoy night actions to normalize turn durations, and touch guards preventing accidental text selection or mobile zoom during group handoffs.
 - **Zero-Backend PWA:** Offline app-shell caching via a custom Service Worker and persistent localStorage game state.

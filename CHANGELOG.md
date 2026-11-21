@@ -1,5 +1,9 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.4.5 (Kelime Sahtekarı v1.2.0 — 800 Kelimelik Genişletilmiş Havuz — 2026-11-21)
+- **Kelime Sahtekarı `v1.2.0`:** 10 kategorinin tamamı kategori başına **45 → 80** kelimeye çıkarılarak toplam yerleşik kelime havuzu **450 → 800** benzersiz, günlük hayattan tanıdık Türkçe kelime ve dengeli tek kelimelik çağrışım ipucuna yükseltildi.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.4.5` olarak güncellendi.
+
 ## v1.4.4 (Vampir-Köylü v1.4.2 — Sadeleştirilmiş Tam Elden Ele Akış — 2026-11-21)
 - **Vampir-Köylü `v1.4.2`:** Gereksiz *Anlatıcı Yardımcılı* mod seçeneği kaldırılarak kurulum ekranı ve oyun akışı doğrudan tek telefondan tam elden ele (*Pass-and-Play*) deneyime sadeleştirildi.
 - **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.4.4` olarak güncellendi.
