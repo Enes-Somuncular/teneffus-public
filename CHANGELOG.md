@@ -1,5 +1,11 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.7.1 (Kesin Oyun Sonu İstatistik Sayımı — 2026-11-21)
+- **Yalnızca Tamamlanan Oyunları (`game_over`) Sayma (`useRecordGameOverStats`):** Merak edip aç-kapa yapılan denemeler veya yarım bırakılan oyunların istatistikleri şişirmesini önlemek için sayaç tetikleyicisi *Oyunu Başlat* adımından alınarak yalnızca gerçek maçların **Oyun Sonu (`game_over`)** ekranına ulaşan geçişlerine bağlandı (`match_complete`).
+- **Arayüz & Gizlilik Metinleri:** Ana sayfadaki kart etiketi *"Son 7 Gün Biten"*, detay modalı ve KVKK bilgilendirme metinleri yalnızca biten maçların sayıldığını yansıtacak şekilde güncellendi.
+- **Birim Testleri:** `shouldRecordGameOverTransition` geçiş testleriyle toplam Vitest test sayısı **55/55**'e çıkarıldı.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.7.1` olarak güncellendi.
+
 ## v1.7.0 (Grafiksel Canlı Topluluk Nabzı & Günlük Tekil Oyuncu Sayımı — 2026-11-21)
 - **Tıklanabilir Canlı Topluluk Nabzı (`CommunityStatsModal` & `/api/stats?detail=1`):** Ana sayfadaki topluluk kartına dokunulduğunda **1 Hafta**, **1 Ay** ve **1 Yıl** sekmelerinde interaktif sütun grafikleri (*Oynanan El* / *Günlük Tekil Oyuncu*), dönem bazlı 4 oyun dağılım çubukları, bugünün ve tüm zamanların özetini açan detay modalı eklendi.
 - **Cihaz İçi Günlük Tekil Oyuncu Tekilleştirme (`teneffus:daily-counted-players:v1`):** Aynı gün içinde aynı oyuncularla arka arkaya el başlatıldığında yalnızca *oynanan el* artar; gruptaki oyunculara o gün ilk kez oynayan biri eklenirse yalnızca `+1`, oyuncu çıkarılırsa `+0` artar. Oyuncu isimleri sunucuya hiç gönderilmeden tamamen cihazın yerel hafızasında ayıklanır (`stats.test.ts` — 6 yeni Vitest birim testi, toplam **54/54** test).
