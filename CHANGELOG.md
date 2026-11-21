@@ -1,5 +1,9 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.5.2 (Sadeleştirilmiş Hub Başlığı & Alt Bilgi Sürüm Rozeti — 2026-11-21)
+- **Hub Başlığı & Alt Bilgi:** Üst başlıktaki Teneffüs logosu ve başlık alanı sadeleştirilerek site sürüm rozeti (`v1.5.2`) alt bilgi (footer) bölümüne taşındı.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.5.2` olarak güncellendi.
+
 ## v1.5.1 (%100 Anonim Canlı Topluluk Nabzı, Yerel Fontlar & KVKK Notu — 2026-11-21)
 - **Canlı Topluluk Nabzı (`CommunityStatsCard` & Cloudflare Worker + KV):** Hiçbir IP adresi, cihaz kimliği, çerez veya oyuncu ismi kaydetmeden anlık aktif masa sayısını ve bu hafta oynanan el/oyuncu sayısını gösteren, çevrimdışı modda da sorunsuz çalışan anonim topluluk istatistiği eklendi.
 - **Yerel Yazı Tipi (`Plus Jakarta Sans` Self-Hosted `.woff2`):** Google Fonts dış bağlantısı kaldırılarak yazı tipleri doğrudan uygulama paketine ve çevrimdışı PWA önbelleğine dahil edildi (sıfır dış IP aktarımı, birebir aynı görünüm).
