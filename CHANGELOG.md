@@ -1,5 +1,13 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.5.0 (Casus Kim? v1.0.0 Lansmanı — 2026-11-21)
+- **Yeni Oyun — Casus Kim? `v1.0.0`:**
+  - **6 Tema Paketi, 72 Mekân ve 720 Rol Kimliği:** *Türkiye & Bizden*, *Seyahat & Ulaşım*, *Eğlence & Etkinlik*, *Kurumlar & Mekânlar*, *Macera & Fantastik* ve *Sosyal Hayat & Buluşma* paketleri ile her mekâna özel 10 rol eklendi.
+  - **Özel Mekân Ekle (`localStorage`):** Arkadaş grubunuza özel mekânlar ekleyip kaydetme desteği eklendi.
+  - **Birebir Çapraz Sorgu & İnteraktif Masa Panosu:** İlk soru eşleşmesi, tek dokunuşla rastgele sorgu sorusu önerici, üzeri çizilebilir 16'lı *Olası Mekânlar Panosu* ve **“Casusum — Mekânı Buldum!”** anında baskın mekaniği eklendi.
+  - **Oylama, Son Şans & Esnek Casus Sayısı:** Açık Masa / Gizli oylama, 6 Şıklı / Yazarak / Sözlü / Kapalı mekân tahmin modları, sınırsız/önerilen casus sayısı ve 7 yeni Vitest motor birim testi (toplam 42 test) eklendi.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.5.0` olarak güncellendi.
+
 ## v1.4.6 (iOS Web-App Güvenli Alan & Yeni İkon Tasarımı — 2026-11-21)
 - **iOS Web-App (Standalone PWA) Üst Boşluk & Netlik Düzeltmesi:** iPhone Web-App modunda üst durum/bildirim çubuğu bulanıklığının (`status-bar blur`) başlık ve logoya binmesini önleyen güvenli üst boşluk (`pt-safe-hub` ve `pt-safe-header`), durum çubuğu koruma katmanı (`ios-statusbar-shield`) ve filtre kaynaklı WebKit bulanıklığını ortadan kaldıran saf vektörel `BrandLogo` bileşeni eklendi.
 - **Yeni Uygulama İkonu & iOS Ana Ekran Desteği:** Çift oyun kartlı (Vampir-Köylü & Kelime Sahtekarı) yeni Teneffüs ikonu tasarlandı; iOS Safari `apple-touch-icon` için `180x180` yüksek çözünürlüklü PNG (`apple-touch-icon.png`), PWA manifesti için `192x192` ve `512x512` PNG/SVG ikon setleri eklendi.

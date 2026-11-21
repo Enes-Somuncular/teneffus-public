@@ -1,11 +1,8 @@
 # Yol Haritası (Roadmap)
 
 ## Tamamlananlar
-- ~~**Kelime Sahtekarı**~~ — `v1.0.0` ile **v1.4.0** sürümünde yayına alındı!
-
-## Planlanan Yeni Oyunlar
-- **Casus Kim?** (`3–10 kişi` • `5–10 dk`)
-  - Herkesin aynı gizli mekânı bildiği, tek bir casusun ise mekânı tahmin etmeye çalıştığı elden ele soru-cevap oyunu.
+- ~~**Kelime Sahtekarı**~~ — `v1.0.0` ile **v1.4.0** sürümünde yayına alındı (`v1.2.0` ile 800 kelimeye ulaştı)!
+- ~~**Casus Kim?**~~ — `v1.0.0` ile **v1.5.0** sürümünde yayına alındı (6 paket, 72 mekân, 720 rol kimliği)!
 
 ## Teneffüs Hub & PWA İyileştirmeleri
 - Kurulabilir PWA güncelleme bildirimi ve geliştirilmiş çevrimdışı varlık ön-yükleme.

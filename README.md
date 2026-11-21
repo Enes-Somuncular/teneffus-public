@@ -7,9 +7,10 @@
   **Arkadaş grupları için tasarlanmış; tamamen ücretsiz, reklamsız, çevrimdışı çalışabilen mobil öncelikli pass-and-play parti oyunları hub'ı.**
 
   [![Canlı Uygulama](https://img.shields.io/badge/Canlı%20Site-teneffus.ns--som.workers.dev-f59e0b?style=for-the-badge&logo=cloudflare&logoColor=white)](https://teneffus.ns-som.workers.dev/)
-  [![Site Sürümü](https://img.shields.io/badge/Hub%20Sürümü-v1.4.6-10b981?style=for-the-badge)](CHANGELOG.md)
+  [![Site Sürümü](https://img.shields.io/badge/Hub%20Sürümü-v1.5.0-10b981?style=for-the-badge)](CHANGELOG.md)
   [![Vampir-Köylü](https://img.shields.io/badge/Vampir--Köylü-v1.4.2-f43f5e?style=for-the-badge)](CHANGELOG.md)
   [![Kelime Sahtekarı](https://img.shields.io/badge/Kelime%20Sahtekarı-v1.2.0-10b981?style=for-the-badge)](CHANGELOG.md)
+  [![Casus Kim?](https://img.shields.io/badge/Casus%20Kim%3F-v1.0.0-6366f1?style=for-the-badge)](CHANGELOG.md)
   [![Mimari](https://img.shields.io/badge/Mimari-React%2019%20%7C%20TS%20%7C%20PWA-6366f1?style=for-the-badge)](docs/ARCHITECTURE.md)
   [![Gizlilik](https://img.shields.io/badge/Gizlilik-%25100%20Cihazda-06b6d4?style=for-the-badge)](docs/PRIVACY.md)
   [![Lisans](https://img.shields.io/badge/Lisans-Tüm%20Hakları%20Saklıdır-475569?style=for-the-badge)](LICENSE)
@@ -83,6 +84,12 @@ Masa başı klasiği **Vampir-Köylü**, anlatıcıya gerek kalmadan elden ele m
 - **Tek Turda Rol + 1. Gece Akışı & Eşit Kartlar:** İlk gecede oyuncular basılı tutup rolünü öğrendikten hemen sonra eylemini tamamlar; paravan seçimleri ve `(i)` rol bilgi kartıyla süreden rol tahmini engellenir.
 - **Özelleştirilebilir Kurallar & Çift Oylama Modu:** **Açık Masa Oylaması** (geri almalı) veya **Gizli Oylama**, elenen rolünü gizleme/gösterme ve doktor kuralları özelleştirilebilir.
 
+### 3. Casus Kim? (`v1.0.0` • 3–12 Kişi • 5–10 dk)
+Masadaki herkesin aynı gizli mekânda birer kimliğe büründüğü, aralarındaki casusun ise konuşmalardan nerede olduklarını çözmeye çalıştığı birebir çapraz sorgu oyunu:
+- **6 Tema Paketi • 72 Mekân • 720 Rol Kimliği:** *Türkiye & Bizden* (Şehir Hatları Vapuru, Halı Saha Maçı, Düğün Salonu, Öğrenci Evi, Semt Pazarı...), *Seyahat & Ulaşım*, *Eğlence & Etkinlik*, *Kurumlar & Mekânlar*, *Macera & Fantastik*, *Sosyal Hayat & Buluşma* + cihazda saklanan **Özel Mekânlar** desteği.
+- **Canlı Olası Mekânlar Panosu & Örnek Sorgu Soruları:** Çapraz sorgu sırasında masadaki ekranda 16 olası mekânlık interaktif referans tablosu (dokunarak üstünü çizme destekli) ve tek dokunuşla rastgele soru önerici yer alır.
+- **Casus Baskını ("Casusum — Mekânı Buldum!") & Son Şans Modları:** Casus konuşmalardan mekânı çözdüğü an oyunu durdurup baskın yapabilir veya oylamada yakalandığında **6 Şıklı**, **Yazarak** ya da **Sözlü** tahminle oyunu çalabilir.
+
 ---
 
 ## Teknoloji Yığını & Mühendislik Özeti
@@ -90,7 +97,7 @@ Masa başı klasiği **Vampir-Köylü**, anlatıcıya gerek kalmadan elden ele m
 | Katman | Seçilen Teknoloji & Yaklaşım |
 | :--- | :--- |
 | **Arayüz** | React 19, TypeScript (strict), Tailwind CSS v4, Lucide İkonları |
-| **Derleme & Test** | Vite 8, Vitest (35 saf birim testi: 21 Vampir-Köylü + 11 Kelime Sahtekarı + 3 Sıralama), ESLint |
+| **Derleme & Test** | Vite 8, Vitest (42 saf birim testi: 21 Vampir-Köylü + 11 Kelime Sahtekarı + 7 Casus Kim + 3 Sıralama), ESLint |
 | **Mimari** | Oyun motorlarının UI'dan izole edildiği Registry tabanlı modüler yapı ([Architecture Docs](docs/ARCHITECTURE.md)) |
 | **Veri & Gizlilik** | `%100` tarayıcı içi (`localStorage`), sıfır sunucu / sıfır takip ([Privacy Policy](docs/PRIVACY.md)) |
 | **Yayınlama & CDN** | PWA Service Worker + Cloudflare Workers Static Assets (SPA fallback, sınırsız statik istek) |
