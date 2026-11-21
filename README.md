@@ -7,11 +7,11 @@
   **Arkadaş grupları için tasarlanmış; tamamen ücretsiz, reklamsız, çevrimdışı çalışabilen mobil öncelikli pass-and-play parti oyunları hub'ı.**
 
   [![Canlı Uygulama](https://img.shields.io/badge/Canlı%20Site-teneffus.ns--som.workers.dev-f59e0b?style=for-the-badge&logo=cloudflare&logoColor=white)](https://teneffus.ns-som.workers.dev/)
-  [![Site Sürümü](https://img.shields.io/badge/Hub%20Sürümü-v1.6.1-10b981?style=for-the-badge)](CHANGELOG.md)
+  [![Site Sürümü](https://img.shields.io/badge/Hub%20Sürümü-v1.6.2-10b981?style=for-the-badge)](CHANGELOG.md)
   [![Vampir-Köylü](https://img.shields.io/badge/Vampir--Köylü-v1.4.3-f43f5e?style=for-the-badge)](CHANGELOG.md)
   [![Kelime Sahtekarı](https://img.shields.io/badge/Kelime%20Sahtekarı-v1.2.1-10b981?style=for-the-badge)](CHANGELOG.md)
   [![Casus Kim?](https://img.shields.io/badge/Casus%20Kim%3F-v1.0.1-6366f1?style=for-the-badge)](CHANGELOG.md)
-  [![Yasaklı Kelime](https://img.shields.io/badge/Yasaklı%20Kelime-v1.1.0-f59e0b?style=for-the-badge)](CHANGELOG.md)
+  [![Yasaklı Kelime](https://img.shields.io/badge/Yasaklı%20Kelime-v1.1.1-f59e0b?style=for-the-badge)](CHANGELOG.md)
   [![Mimari](https://img.shields.io/badge/Mimari-React%2019%20%7C%20TS%20%7C%20PWA-6366f1?style=for-the-badge)](docs/ARCHITECTURE.md)
   [![Gizlilik](https://img.shields.io/badge/Gizlilik-%25100%20Cihazda-06b6d4?style=for-the-badge)](docs/PRIVACY.md)
   [![Lisans](https://img.shields.io/badge/Lisans-Tüm%20Hakları%20Saklıdır-475569?style=for-the-badge)](LICENSE)
@@ -91,7 +91,7 @@ Masadaki herkesin aynı gizli mekânda birer kimliğe büründüğü, aralarınd
 - **Canlı Olası Mekânlar Panosu & Örnek Sorgu Soruları:** Çapraz sorgu sırasında masadaki ekranda 16 olası mekânlık interaktif referans tablosu (dokunarak üstünü çizme destekli) ve tek dokunuşla rastgele soru önerici yer alır.
 - **Casus Baskını ("Casusum — Mekânı Buldum!") & Son Şans Modları:** Casus konuşmalardan mekânı çözdüğü an oyunu durdurup baskın yapabilir veya oylamada yakalandığında **6 Şıklı**, **Yazarak** ya da **Sözlü** tahminle oyunu çalabilir.
 
-### 4. Yasaklı Kelime (`v1.1.0` • 2–16 Kişi • 5–15 dk)
+### 4. Yasaklı Kelime (`v1.1.1` • 2–16 Kişi • 5–15 dk)
 5 yasaklı kelimeye takılmadan süre bitmeden en çok kelimeyi anlatma oyunu — hem **2–3+ kişilik küçük arkadaş grupları** hem de **4+ kişilik takımlar** için iki ayrı modla:
 - **Takımsız (Bireysel / Küçük Grup • 2–12 Kişi) Modu:** Takımlara bölünmeden hemen başlayın; anlatıcı masadaki herkese anlatır, kelimeyi ilk bilen arkadaşın ismine dokunulduğunda **hem anlatan `+1` hem bilen `+1` puan** kazanır!
 - **Klasik Takım (Tabu Kapışması • 4–16 Kişi) Modu:** A Takımı vs. B Takımı sırayla anlatır; tek dokunuşla dengeli takım dağıtımı ve özelleştirilebilir takım isimleri.

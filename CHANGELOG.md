@@ -1,5 +1,9 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.6.2 (Kompakt & Şık Sayısal Ayar Kartları — 2026-11-21)
+- **Kompakt Sayısal Ayar Kartı (`NumericStepperInput`):** Sayısal ayar kartlarındaki gereksiz açıklama satırları kaldırıldı; sayı ve birimin (`180 sn`, `60 sn`, `3 pas`, `-1 puan`) kutu içinde boşluksuz, dengeli ve tek boyutta hizalandığı daha zarif bir tasarım uygulandı.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.6.2` olarak güncellendi.
+
 ## v1.6.1 (Tüm Oyunlarda Serbest Sayısal Ayarlar & Yasaklı Kelime v1.1.0 — 2026-11-21)
 - **Serbest Sayısal Ayarlar (`NumericStepperInput` — `- / +` + Klavyeden Direkt Giriş + Hızlı Seçenekler):**
   - **Yasaklı Kelime `v1.1.0`:** *Anlatım Süresi* (`10..600 sn`), *Tur Başına Pas Hakkı* (`0..99 pas` + `Sınırsız`), *Yasak (Tabu) Cezası* (`0..-20 puan`), *Tur Sayısı* (`1..25 tur`) ve *Hedef Puan* (`5..500 puan`) ayarlarının tamamı `- / +` tuşları ve klavyeden doğrudan sayı yazma desteğiyle özgürleştirildi.
