@@ -1,5 +1,9 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.4.4 (Vampir-Köylü v1.4.2 — Sadeleştirilmiş Tam Elden Ele Akış — 2026-11-21)
+- **Vampir-Köylü `v1.4.2`:** Gereksiz *Anlatıcı Yardımcılı* mod seçeneği kaldırılarak kurulum ekranı ve oyun akışı doğrudan tek telefondan tam elden ele (*Pass-and-Play*) deneyime sadeleştirildi.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.4.4` olarak güncellendi.
+
 ## v1.4.3 (Sınırsız Rol & Sahtekar Desteği — 2026-11-21)
 - **Vampir-Köylü `v1.4.1`:** *Doktor*, *Dedektif*, *Avcı* ve *Deli* rollerindeki adet sınırı kaldırıldı; çoklu doktor korumaları, bağımsız dedektif sorguları ve her avcının kendi hedefi tam motor/anlatıcı desteğiyle çalışacak şekilde geliştirildi.
 - **Kelime Sahtekarı `v1.1.1`:** *Sahtekar* sayısındaki 3/çoğunluk kısıtı kaldırıldı; istenirse oyuncu sayısına kadar (kaotik mod dahil) serbest sahtekar seçimi ve tek dokunuşla *Önerilen* ayarına dönüş eklendi.
