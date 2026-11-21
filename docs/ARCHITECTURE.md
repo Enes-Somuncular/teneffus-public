@@ -13,7 +13,7 @@ Teneffüs, birbirinden bağımsız elden ele parti oyunlarını tek bir çatı a
 
 ## 3. İzole Oyun Motorları (`Vampir-Köylü` & `Kelime Sahtekarı`)
 - **Vampir-Köylü:** Rol dağıtımı, gece çözümleme, koruma/sorgu/avcı zincirleri ve oylama akışı **19 Vitest birim testi** ile doğrulanır.
-- **Kelime Sahtekarı:** 10 kategori (260 kelime) + özel liste havuzu, tekrarsız kelime seçimi, Açık Masa / Gizli oylama, Türkçe karakter esnekliğiyle yazarak tahmin ve şıklı/sözlü son şans kuralları **10 Vitest birim testi** ile doğrulanır (toplam **29 birim testi**).
+- **Kelime Sahtekarı:** 10 kategori (450 kelime) + özel liste havuzu, zorlaştırılmış çağrışım ipuçları, tekrarsız kelime seçimi, Açık Masa / Gizli oylama, Türkçe karakter esnekliğiyle yazarak tahmin ve şıklı/sözlü son şans kuralları **10 Vitest birim testi** ile doğrulanır; tut-sürükle sıralama yardımcısı **3 birim testi** ile kapsanır (toplam **32 birim testi**).
 
 ## 4. Çevrimdışı PWA & Edge Dağıtımı
 - **Service Worker:** Uygulama kabuğu (`/`), `manifest.webmanifest`, uygulama simgesi ve hash'li Vite JS/CSS paketleri cihazda önbelleğe alınır.

@@ -1,5 +1,12 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.4.1 (Sürükle-Bırak Sıralama & 450 Kelime — 2026-11-21)
+- **Tut-Sürükle Oyuncu Sıralama:** Hub Oyuncu Ekibi (`RosterSheet`), Vampir-Köylü (`v1.3.1`) ve Kelime Sahtekarı (`v1.1.0`) kurulum ekranlarına dokunmatik ve fare destekli sürükle-bırak sıralama eklendi.
+- **Kelime Sahtekarı `v1.1.0`:**
+  - Toplam kelime havuzu 10 kategoride **260 → 450** benzersiz Türkçe kelimeye çıkarıldı (`45` kelime/kategori).
+  - Sahtekar çağrışım ipuçları cevabı doğrudan ele vermeyecek şekilde daha dengeli ve ince ipuçlarıyla yenilendi.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.4.1` olarak güncellendi.
+
 ## v1.4.0 (Kelime Sahtekarı v1.0.0 Lansmanı — 2026-11-21)
 - **Yeni Oyun — Kelime Sahtekarı `v1.0.0`:**
   - 10 kategoride 260 kürasyonlu Türkçe kelime ve tek/çoklu kategori seçimi eklendi.
