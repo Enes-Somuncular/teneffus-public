@@ -1,5 +1,11 @@
 # Sürüm Geçmişi (Changelog)
 
+## v1.7.2 (Günlük Tekil Ziyaretçi Sayacı & Grafik Metriği — 2026-11-22)
+- **Günlük Tekil Ziyaretçi Takibi (`teneffus:daily-visit-counted:v1` & Worker `v` Kovaları):** Tarayıcı/cihaz başına aynı gün içinde en fazla `1` tekil ziyaret sayan tamamen anonim günlük ziyaretçi sayacı eklendi; siteye aynı gün yapılan tekrar girişler ve yenilemeler tekrar sayılmaz. Doğrudan bir oyun rotasına (`/oyun/...`) girildiğinde de günün tekil ziyareti kaydedilir.
+- **3 Sütunlu Canlı Nabız & Grafik Metriği (`CommunityStatsCard` & `CommunityStatsModal`):** Özet kartına **Ziyaret**, **Biten El** ve **Oyuncu** değerleri sığdırıldı; detay modalındaki grafikte **1 Hafta / 1 Ay / 1 Yıl** sekmeleri altında turkuaz renkli **Ziyaret** sütun grafiği ve günlük/toplam ziyaret özeti eklendi.
+- **Birim Testleri & Gizlilik:** `shouldCountDailyVisit` testiyle Vitest sayısı **56/56**'ya çıkarıldı; KVKK aydınlatma notu güncellendi.
+- **PWA Önbelleği:** Service Worker önbellek sürümü `teneffus-v1.7.2` olarak güncellendi.
+
 ## v1.7.1 (Kesin Oyun Sonu İstatistik Sayımı — 2026-11-21)
 - **Yalnızca Tamamlanan Oyunları (`game_over`) Sayma (`useRecordGameOverStats`):** Merak edip aç-kapa yapılan denemeler veya yarım bırakılan oyunların istatistikleri şişirmesini önlemek için sayaç tetikleyicisi *Oyunu Başlat* adımından alınarak yalnızca gerçek maçların **Oyun Sonu (`game_over`)** ekranına ulaşan geçişlerine bağlandı (`match_complete`).
 - **Arayüz & Gizlilik Metinleri:** Ana sayfadaki kart etiketi *"Son 7 Gün Biten"*, detay modalı ve KVKK bilgilendirme metinleri yalnızca biten maçların sayıldığını yansıtacak şekilde güncellendi.
